@@ -1,7 +1,7 @@
 api = "0.4"
 
 [buildpack]
-id = "sgudz/minecraft"
+id = "jkutner/minecraft"
 version = "0.2.4"
 name = "Minecraft"
 homepage = "https://github.com/sgudz/mcrdocker"

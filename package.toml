@@ -1,0 +1,14 @@
+[buildpack]
+uri = "."
+
+[[dependencies]]
+uri = "https://github.com/heroku/heroku-buildpack-jvm-common/releases/download/v114/heroku-jvm-common-cnb-v114.tgz"
+
+[[dependencies]]
+uri = "server/"
+
+[[dependencies]]
+uri = "raspberry-juice/"
+
+[[dependencies]]
+uri = "https://cnb-shim.herokuapp.com/v1/heroku/python?api=0.4&version=0.4.0&name=Python&stacks=heroku-18,io.buildpacks.stacks.bionic"

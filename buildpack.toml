@@ -1,10 +1,10 @@
 api = "0.4"
 
 [buildpack]
-id = "jkutner/minecraft"
+id = "sgudz/minecraft"
 version = "0.2.4"
 name = "Minecraft"
-homepage = "https://github.com/jkutner/minecraft-buildpack"
+homepage = "https://github.com/sgudz/mcrdocker"
 description = "Create a Minecraft server for a Docker container"
 keywords = ["minecraft", "game"]
 
